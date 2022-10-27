@@ -1,0 +1,2 @@
+# nohup sh xxx.sh &>a.log &
+python train.py --data_directory='data' --saved_image_directory='../autodl-tmp/saved_images' --saved_model_directory='../autodl-tmp/saved_models' --batch_size=512 --class_size=12 --embedding_dim=12 --device='cuda' --num_workers=12 --epochs=500
