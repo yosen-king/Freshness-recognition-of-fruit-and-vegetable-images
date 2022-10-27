@@ -8,7 +8,7 @@ Paper link:
 
 As mentioned above, datasets on the freshness of Fruit and Vegetable are really scarce. At the beginning of the experiment, I just find only one suitable dataset [here](https://www.kaggle.com/datasets/raghavrpotdar/fresh-and-stale-images-of-fruits-and-vegetables). Let's see some samples below.
 
-![](img/data_sample.png)
+<img src="img/data_sample.png" style="zoom:50%;" />
 
 
 
@@ -20,13 +20,13 @@ During the my research, only 5 models had been used, including CGAN, CWGAN-GP, A
 
 Unfortunately, CGAN, as my first model to try, encountered issues with the Mode Collapse. And the output of Generator revolves around the feature of fresh or stale apple(round and no bars).
 
-![](CGAN/result/epoch184.png)
+<img src="CGAN/result/epoch184.png" style="zoom:50%;" />
 
 #### CWGAN-GP
 
 For the second Generative model, there is no doubt that something is improving. The model can learn the feature of bar fruit and stale fruit, like stale banana. However, as the main layer of this model is Full-Connected layer, the output image is not realisitc. 
 
-![](CWGAN-GP/result/epoch_499_checkpoint.jpg)
+<img src="CWGAN-GP/result/epoch_499_checkpoint.jpg" style="zoom:50%;" />
 
 #### ACWGAN-GP
 
