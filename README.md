@@ -34,7 +34,7 @@ Replacing the main layer with convolutional layer and adding the architecture of
 
 Below is the output images from epoch 1 to epoch 100000(compressed, fps=0.1).
 
-![](img/ACWGAN-GP-min.gif)
+<img src="img/ACWGAN-GP-min.gif" style="zoom:200%;" />
 
 ### Requirements
 
